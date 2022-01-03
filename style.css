@@ -6,7 +6,6 @@
 .container{
    display: flex;
    flex-direction: column;
-   /* justify-content: center; */
    align-items: center;
 
 }
@@ -16,22 +15,46 @@
 .banner img{
     width: 500px;
 }
-.registration_area{
+.form_section{
     border: 1px solid black;
     border-radius: 20px;
-    padding: 20px;
+    padding: 50px 0px;
     width: 50%;
-    /* text-align: center; */
+    
+}
+.registration_area{
+    display: flex;
+    flex-direction: row;
+    gap: 0px 100px;
+    justify-content: center; 
 }
 .personal_info{
     display: flex;
     flex-direction: column;
-    /* border: 1px solid black;
-    border-radius: 20px;
-    padding: 20px;
-    width: 50%;
-    text-align: center; */
-
-
+    gap: 20px 0px;
 }
-
+.course_info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    /* margin-top: 20px; */
+}
+.container input{
+    padding: 7px; 
+}
+/* .button{
+    margin-left: 70px;
+} */
+.btn button{
+    margin: 30px 0px 0px 70px;
+    padding: 10px 25px;
+    font-size: large;
+    /* color: rgb(13, 14, 14); */
+    /* background-color: rgb(146, 202, 255); */
+    /* border: 1px solid blue; */
+    border-radius: 5px;
+}
+.common_style{
+    display: flex;
+    flex-direction: column;
+}
